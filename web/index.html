@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment#7</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            fieldset{
+                margin-top:30px;
+                padding-bottom:5px;
+                width:50%;
+            }
+            legend{
+                font-weight:bold;
+            }
+            input{
+                margin-top:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset><legend> CREATE (OR RESET) DATABASE </legend>
+            <form action="v1/messages/db" method="get">
+                <button>Go</button>
+            </form>
+        </fieldset> 
+        <fieldset><legend> [GET] GET ALL THE MESSAGES </legend>
+            <form action="v1/messages" method="get">
+                <button>Go</button>
+            </form>
+        </fieldset> 
+    </body>
+</html>
